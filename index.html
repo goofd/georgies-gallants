@@ -126,34 +126,6 @@
     <!-- Team Section -->
     <section id="Team" class="container-fluid text-center vcenter" style="color: red; background-color: white; padding-left:10px">
         <div class="row">
-            <div class="col-sm-6" style="min-height: 650px">
-                <h3>Our Management</h3>
-
-                <div class="table-responsive">
-                    <table class="table table-hover table-striped table-bordered">
-                        <tbody>
-                        <tr>
-                            <td>Owner</td>
-                            <td>Gourab Ghosh Roy</td>
-                        </tr>
-                        <tr>
-                            <td>Co-Owner</td>
-                            <td>Prithwish Chakraborty</td>
-                        </tr>
-                        <tr>
-                            <td>Manager</td>
-                            <td>Devleen Bhaumik</td>
-                        </tr>
-                        <tr>
-                            <td>Asst. Manager<br/>
-                                Spokesperson
-                            </td>
-                            <td>Arka Dyuti Palit</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
 
             <div class="col-sm-6">
               <h3>Our Team</h3>
@@ -250,13 +222,51 @@
                 </table>
               </div> 
             </div>
-            <!-- Map Section -->
-            <!-- <div class="col-sm-6 col-centered"> -->
-                <!-- <h3>Our Base</h3> -->
 
-                <!-- <div id="map2" class="map"> -->
-                <!-- </div> -->
-            <!-- </div> -->
+            <!-- Management -->
+            <div class="col-sm-6" style="min-height: 650px">
+                <h3>Our Management</h3>
+
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped table-bordered">
+                        <tbody>
+                        <tr>
+                            <td>Owner</td>
+                            <td>Gourab Ghosh Roy</td>
+                        </tr>
+                        <tr>
+                            <td>Co-Owner</td>
+                            <td>Prithwish Chakraborty</td>
+                        </tr>
+                        <tr>
+                            <td>Manager</td>
+                            <td>Devleen Bhaumik</td>
+                        </tr>
+                        <tr>
+                            <td>Asst. Manager<br/>
+                                Spokesperson
+                            </td>
+                            <td>Arka Dyuti Palit</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="col-sm-6 col-centered">
+                <h3>Tourney</h3>
+                <dl class="dl-horizontal">
+                    <dt>Dates</dt>
+                    <dd>20-21 December, 2014</dd>
+
+                    <dt>Venue</dt>
+                    <dd>New Town Police Ground, Kolkata, IN</dd>
+                </dl>
+
+                <div id="map2" class="map">
+                </div>
+            </div>
           </div>
     </section>
 
@@ -307,8 +317,8 @@
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
     <script style="text/javascript">
         // create a map in the "map" div, set the view to a given place and zoom
-        var lat=22.566;
-        var lon=88.3667;
+        var lat=22.580774;
+        var lon=88.447691;
         var map = L.map('map2').setView([lat, lon], 13);
 
         // add an OpenStreetMap tile layer
