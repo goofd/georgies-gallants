@@ -14,8 +14,8 @@
     vertical-align: middle;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
 }
 
 .map {
