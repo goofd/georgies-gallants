@@ -1,0 +1,1 @@
+../templates/startbootstrap-grayscale/js/bootstrap.js
